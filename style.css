@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F6F8;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50% );
+    background-color: #E3E3E3;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+.content h1{
+  font-weight: 800;
+  text-shadow: 1px 1px 1px#C60021;
+  letter-spacing: 2px;
+}
+
+.content h2{
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #888888;
+    letter-spacing: 2px;
+  }
+  
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.calculator input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #C60021;
+}
+.calculator H4{
+    font-weight: 800;
+    text-shadow: 0px 0px 0px #888888;
+    letter-spacing: 2px;
+}
+
+.calculator #calc{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow:5px 10px 18px #888888 ;
+    background-color: #C60021;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+ .calculator #calc :hover{
+    background-color: #888888;
+    color: black;
+}
+#result{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50% );
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    background-color: #E3E3E3;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 10px;
+    border: 1px solid #888888;
+    box-shadow:5px 10px 18px #888888 ;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+#result p{
+    color: #C60021;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px #888888;
+}
